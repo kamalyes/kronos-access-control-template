@@ -1,8 +1,8 @@
 /*
  * @Author: kamalyes example@qq.com
- * @Date: 2026-10-31 00:00:00
+ * @Date: 2026-11-08 00:00:00
  * @LastEditors: kamalyes example@qq.com
- * @LastEditTime: 2026-10-31 00:00:00
+ * @LastEditTime: 2026-11-08 00:00:00
  * @FilePath: \kronos-access-control-service\service\auth\auth_service.go
  * @Description: 鉴权服务 —— 可替换的桩实现
  *
@@ -18,7 +18,7 @@ import (
 	pb "github.com/kamalyes/kronos-share-proto-template/pb/access_control"
 	commonpb "github.com/kamalyes/kronos-share-proto-template/pb/common"
 	enumspb "github.com/kamalyes/kronos-share-proto-template/pb/enums"
-	goconfig "github.com/kamalyes/go-config"
+	goconfig "github.com/kamalyes/go-rpc-gateway/config"
 	gwglobal "github.com/kamalyes/go-rpc-gateway/global"
 	gwmiddleware "github.com/kamalyes/go-rpc-gateway/middleware"
 )
