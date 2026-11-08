@@ -15,7 +15,7 @@ import (
 
 	"github.com/<% .OrgName %>/<% .ProjectName %>/constants"
 	authsvc "github.com/<% .OrgName %>/<% .ProjectName %>/service/auth"
-	goconfig "github.com/kamalyes/go-config"
+	goconfig "github.com/kamalyes/go-rpc-gateway/config"
 	gateway "github.com/kamalyes/go-rpc-gateway"
 	gwglobal "github.com/kamalyes/go-rpc-gateway/global"
 	"google.golang.org/grpc"

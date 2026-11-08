@@ -3,12 +3,10 @@ module github.com/<% .OrgName %>/<% .ProjectName %>
 go <% .GoVersion %>
 
 require (
-	github.com/kamalyes/go-bizerror v0.0.0-20260814173213-9f68830eaadf
-	github.com/kamalyes/go-config v0.23.0
-	github.com/kamalyes/go-logger v0.7.1
-	github.com/kamalyes/go-rpc-gateway v1.9.6
-	google.golang.org/grpc v1.80.0
-	google.golang.org/protobuf v1.36.11
+	github.com/kamalyes/go-rpc-gateway v1.10.2-0.20261108113725-d288a36ccd0b
+	github.com/kamalyes/go-toolbox v0.19.4
+	google.golang.org/grpc v1.84.0
+	google.golang.org/protobuf v1.36.12
 )
 
 // 这个模板刻意只有最小依赖：没有数据库、没有缓存、没有 JWT 库

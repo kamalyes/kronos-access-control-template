@@ -18,7 +18,7 @@ import (
 	pb "<% .ShareProtoModule %>/pb/access_control"
 	commonpb "<% .ShareProtoModule %>/pb/common"
 	enumspb "<% .ShareProtoModule %>/pb/enums"
-	goconfig "github.com/kamalyes/go-config"
+	goconfig "github.com/kamalyes/go-rpc-gateway/config"
 	gwglobal "github.com/kamalyes/go-rpc-gateway/global"
 	gwmiddleware "github.com/kamalyes/go-rpc-gateway/middleware"
 )
